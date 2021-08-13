@@ -42,4 +42,8 @@ public struct HamidSt {
             print("my name is: \(name) and I'm \(age+i) years old")
         }
     }
+    
+    public func anotherFunc() {
+        print("another function folk...")
+    }
 }
