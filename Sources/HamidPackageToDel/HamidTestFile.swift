@@ -32,6 +32,10 @@ public struct HamidSt {
     var name: String
     var age: Int
     
+    public init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
     //little change
     public func giveMe(amount: Int) {
         for i in 0...amount {
