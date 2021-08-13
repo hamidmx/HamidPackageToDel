@@ -28,9 +28,14 @@
 
 import Foundation
 
-struct HamidSt {
+public struct HamidSt {
     var name: String
     var age: Int
     
     //little change
+    public func giveMe(amount: Int) {
+        for i in 0...amount {
+            print("my name is: \(name) and I'm \(age+i) years old")
+        }
+    }
 }
